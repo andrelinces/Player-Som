@@ -13,6 +13,7 @@
 		D321B71B26F6B5950001D283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321B71926F6B5950001D283 /* Main.storyboard */; };
 		D321B71D26F6B5960001D283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D321B71C26F6B5960001D283 /* Assets.xcassets */; };
 		D321B72026F6B5960001D283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321B71E26F6B5960001D283 /* LaunchScreen.storyboard */; };
+		D321B72926F6B6860001D283 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B72826F6B6860001D283 /* bach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D321B71C26F6B5960001D283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D321B71F26F6B5960001D283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D321B72126F6B5960001D283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D321B72826F6B6860001D283 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D321B71226F6B5950001D283 /* Player Som */ = {
 			isa = PBXGroup;
 			children = (
+				D321B72726F6B60F0001D283 /* Sons */,
 				D321B71326F6B5950001D283 /* AppDelegate.swift */,
 				D321B71526F6B5950001D283 /* SceneDelegate.swift */,
 				D321B71726F6B5950001D283 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				D321B72126F6B5960001D283 /* Info.plist */,
 			);
 			path = "Player Som";
+			sourceTree = "<group>";
+		};
+		D321B72726F6B60F0001D283 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				D321B72826F6B6860001D283 /* bach.mp3 */,
+			);
+			path = Sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D321B72926F6B6860001D283 /* bach.mp3 in Resources */,
 				D321B72026F6B5960001D283 /* LaunchScreen.storyboard in Resources */,
 				D321B71D26F6B5960001D283 /* Assets.xcassets in Resources */,
 				D321B71B26F6B5950001D283 /* Main.storyboard in Resources */,
